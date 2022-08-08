@@ -1,0 +1,76 @@
+
+*{
+    margin: 0;
+    --light-green:#96be25;
+    --lighter-green: #dcf2bb;
+    font-family: sans-serif;
+}
+
+.menu-navegacion{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--light-green);
+    padding: 1rem 0;
+}
+
+.menu-navegacion__busqueda{
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.menu-navegacion__busqueda input{
+    padding: .4rem 0;
+    background-color: var(--lighter-green);
+
+}
+
+.menu-navegacion__busqueda label{
+    font-size: 1.5rem;
+}
+
+.btn{
+    width: 140px;
+    padding: 10px 0;
+    font-size: 16px;
+    border: 3px solid;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.menu-navegacion__btn-login{
+    background-color: var(--light-green);
+    border-color: #fff;
+    color: #fff;
+}
+
+
+/*BANNER*/
+.banner{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/banner.png);;
+    padding-left: 5rem;
+    padding-bottom: 3rem;
+}
+
+.banner__encabezado{
+    font-size: 2rem;
+    color: #fff;
+    padding: 2rem 0;
+}
+
+.banner__parrafo{
+    font-size: 1.5rem;
+    color: #fff;
+    padding-bottom: 2rem;
+}
+
+.banner__btn-ver-consolas{
+    border-color: #fff;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+
+}
