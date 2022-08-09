@@ -1,0 +1,26 @@
+*{
+    --light-green:#96be25;
+    --dark-green:#2c6914;
+    --lighter-green: #dcf2bb;
+}
+
+.iniciar-sesion{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    margin:155px auto;
+    text-align: center;
+}
+
+.username, .password{
+    padding: .5rem 0;
+    margin: 1rem 0;
+}
+
+.btn-entrar{
+    background-color: var(--light-green);
+    width: 100%;
+    display: block;
+    border-color: var(--light-green);
+    color: #fff;
+}

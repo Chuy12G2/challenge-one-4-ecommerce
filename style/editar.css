@@ -1,0 +1,21 @@
+*{
+    --light-green:#96be25;
+    --dark-green:#2c6914;
+    --lighter-green: #dcf2bb;
+}
+
+.productos-encabezado{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+    width: 80%;
+    margin: auto;
+}
+
+.btn-agregar{
+    display: block;
+    background-color: var(--light-green);
+    border-color: var(--light-green);
+    color: #fff;
+}
