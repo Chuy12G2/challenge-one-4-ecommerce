@@ -2,16 +2,28 @@
 *{
     margin: 0;
     --light-green:#96be25;
+    --dark-green:#2c6914;
     --lighter-green: #dcf2bb;
     font-family: sans-serif;
+
+}
+
+a{
+    text-decoration: none;
 }
 
 .menu-navegacion{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     background-color: var(--light-green);
+}
+
+.menu-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
     padding: 1rem 0;
+    width: 80%;
+    margin: auto;
 }
 
 .menu-navegacion__busqueda{
@@ -49,9 +61,13 @@
 
 /*BANNER*/
 .banner{
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/banner.png);;
-    padding-left: 5rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/banner.png);
     padding-bottom: 3rem;
+}
+
+.banner-container{
+    width: 80%;
+    margin:auto ;
 }
 
 .banner__encabezado{
@@ -73,4 +89,62 @@
     padding-right: 10px;
     text-decoration: none;
 
+}
+
+
+/*Productos*/
+.videojuegos, .consolas, .perifericos{
+    padding-bottom:2rem ;
+
+}
+
+.videojuegos__encabezado, .consolas__encabezado, .perifericos__encabezado{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.videojuegos__encabezado__titulo, .consolas__encabezado__titulo, .perifericos__encabezado__titulo {
+    font-size: 1.6rem;
+    padding: 1rem 0;
+
+}
+
+.videojuegos__encabezado__link, .consolas__encabezado__link, .perifericos__encabezado__link{
+    color: var(--dark-green);
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+
+.videojuegos__productos, .consolas__productos, .perifericos__productos {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+
+.producto{
+    width: 160px;
+    height: 280px;
+    border: 3px solid var(--light-green);
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: #fff;
+}
+
+.imagen-producto{
+    height: 200px;
+    width: 100%;
+}
+
+.nombre-producto, .precio-producto{
+    padding-bottom: .5rem;
+}
+
+.link-producto{
+    color: var(--dark-green);
+    font-weight: bold;
 }
